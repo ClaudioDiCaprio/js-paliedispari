@@ -56,9 +56,11 @@ if( ask == y && play % 2 == 0 ){
     const adder = add(play,R1);
     console.log('add value equals: ' + adder % 2);
     if(R1 > play){
-        console.log('R1 WINS' + R1);
+        console.log('R1 WINS ' + R1);
+    }else if(R1==play){
+        console.log(R1 + ' EVEN '+ play);
     }else{
-        console.log('play WINS'+ play);
+        console.log('play WINS '+ play);
     }
 
     document.querySelector('.here').innerHTML ='The sum value is : ';
@@ -72,9 +74,11 @@ if( ask == y && play % 2 == 0 ){
         const adder = add(play,R1);
         console.log('add value equals: ' + adder % 2);
         if(R1 > play){
-            console.log('R1 WINS'+ R1);
+            console.log('R1 WINS '+ R1);
+        }else if(R1==play){
+            console.log(R1 + 'EVEN'+ play);
         }else{
-            console.log('Play WINS '+ play);
+            console.log('play WINS'+ play);
         }
 
         document.querySelector('.here').innerHTML ='The sum value is : ';
