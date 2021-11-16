@@ -54,7 +54,7 @@ if( ask == y && play % 2 == 0 ){
     let R1 = getRndInteger(1,6);
     console.log('R1 value is: ' + R1);
     const adder = add(play,R1);
-    console.log('the add value is: ' + adder % 2);
+    console.log('add value equals: ' + adder % 2);
     if(R1 > play){
         console.log('R1 ' + 'WINS' + R1);
     }else{
@@ -70,7 +70,7 @@ if( ask == y && play % 2 == 0 ){
         console.log('R1 value is: ' + R1);
 
         const adder = add(play,R1);
-        console.log('the add value is: ' + adder % 2);
+        console.log('add value equals: ' + adder % 2);
         if(R1 > play){
             console.log('R1 ' + 'WINS'+ R1);
         }else{
