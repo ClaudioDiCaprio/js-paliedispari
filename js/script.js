@@ -54,11 +54,11 @@ if( ask == y && play % 2 == 0 ){
     let R1 = getRndInteger(1,6);
     console.log('R1 value is: ' + R1);
     const adder = add(play,R1);
-    console.log('the add value is: ' + adder);
+    console.log('the add value is: ' + adder % 2);
     if(R1 > play){
-        console.log('R1 ' + 'WINS');
+        console.log('R1 ' + 'WINS' + R1);
     }else{
-        console.log('play ' + 'WINS');
+        console.log('play ' + 'WINS'+ play);
     }
 
     document.querySelector('.here').innerHTML ='The sum value is : ';
@@ -70,11 +70,11 @@ if( ask == y && play % 2 == 0 ){
         console.log('R1 value is: ' + R1);
 
         const adder = add(play,R1);
-        console.log('the add value is: ' + adder);
+        console.log('the add value is: ' + adder % 2);
         if(R1 > play){
-            console.log('R1 ' + 'WINS');
+            console.log('R1 ' + 'WINS'+ R1);
         }else{
-            console.log('play ' + 'WINS');
+            console.log('Play ' + 'WINS '+ play);
         }
 
         document.querySelector('.here').innerHTML ='The sum value is : ';
