@@ -78,7 +78,7 @@ if( ask == y && play % 2 == 0 ){
         }else if(R1==play){
             console.log(R1 + 'EVEN'+ play);
         }else{
-            console.log('play WINS'+ play);
+            console.log('play WINS '+ play);
         }
 
         document.querySelector('.here').innerHTML ='The sum value is : ';
