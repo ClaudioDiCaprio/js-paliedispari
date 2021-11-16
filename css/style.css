@@ -23,29 +23,12 @@
     margin: 0;
     font-size: 140px;
     color: rgb(251, 255, 0);
-    animation: pulse 5s linear;
+    animation: pulse 3s linear infinite ; 
  
 }
 
-
-
-
-
-
+ 
 @keyframes pulse {
-    0%   {
-        font-size: 140;
-    }
-    25%  {
-        font-size:80;
-    }
-    50%  {
-        font-size: 240;
-    }
-    75%  {
-        
-    }
-    100%  {
-        font-size: 240;
-    }
-  }
+    from {color: red;}
+    to {color: yellow;}
+}
