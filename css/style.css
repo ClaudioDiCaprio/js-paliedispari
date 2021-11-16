@@ -16,4 +16,11 @@
 .here{
     font-size: 80px;
     color: white ;
+    margin: 0 30px;
+}
+
+.bum {
+    margin: 0;
+    font-size: 140px;
+    color: rgb(251, 255, 0);
 }

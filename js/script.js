@@ -23,5 +23,6 @@ let ask = prompt('insert a palindrome word');
 let check = check_palindrome(ask);
 console.log(check);
 
-document.querySelector('.here').innerHTML = 'The palindromicity value  for : '+ ask +', is ' + check;
+document.querySelector('.here').innerHTML = 'The palindromicity value  for : '+ ask +', is';
 
+document.querySelector('.bum').innerHTML =  check +'.';
