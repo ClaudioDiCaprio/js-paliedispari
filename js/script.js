@@ -44,8 +44,8 @@ function add(io,lei) {
 
 const ask = prompt('Choose : ODD or EVEN');
 const play =  prompt ('insert a number >0 and 5<');
-const x = 'odd';
-const y = 'even';
+const x = 'odd'&&'ODD';
+const y = 'even' && 'EVEN';
 let R1;
 // const play ='';
 
